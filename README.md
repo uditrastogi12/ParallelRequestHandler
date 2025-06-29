@@ -69,6 +69,8 @@ Postman will fire 100 parallel requests.
 
 ScreenShots:
 
+As you can see that till 80 parallel request, I am getting message as "Allowed" . After 80th request, all request send message as Rejected.
+
 ![image](https://github.com/user-attachments/assets/51a5b540-8d99-49f5-96f7-d0b476349bae)
 
 
