@@ -1,0 +1,13 @@
+package com.billingms.billingms;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class BillingmsApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

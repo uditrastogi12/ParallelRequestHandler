@@ -1,0 +1,22 @@
+
+
+
+server:
+  port: 8080
+
+billing:
+  base-url: http://localhost:8081/billing
+
+spring:
+
+  application:
+    name: esignms
+
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
