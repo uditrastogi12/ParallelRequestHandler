@@ -4,8 +4,8 @@
 
 This repository contains two microservices:
 
-- billing-ms: Handles client quota validation.
-- esign-ms: Uses the billing service to validate and consume client quota for API requests.
+- billingms: Handles client quota validation.
+- esignms: Uses the billing service to validate and consume client quota for API requests.
 
 ## Running Locally
 
@@ -14,7 +14,7 @@ This repository contains two microservices:
 - Port: 8081
 - Start using your IDE or:
 
-  cd billing-ms
+  cd billingms
   mvn spring-boot:run
 
 2️⃣ eSign Microservice
@@ -22,14 +22,14 @@ This repository contains two microservices:
 - Port: 8080
 - Start using your IDE or:
 
- cd esign-ms
+ cd esignms
  mvn spring-boot:run
 
 
 DB SETUP :
  http://localhost:8081/h2-console
 
- INSERT INTO client_quotas (client_id, balance, version) VALUES ('client123', 5, 0);
+ INSERT INTO client_quotas (client_id, balance, version) VALUES ('client123', 100, 0);
 
 
 
